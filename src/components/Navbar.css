@@ -1,0 +1,40 @@
+.navbar-container {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* สีพื้นหลังแบบ Gradient */
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ffffff !important; /* เปลี่ยนสีเมื่อ hover */
+    background-color: rgba(0, 0, 0, 0.1); /* เพิ่มสีพื้นหลัง */
+    border-radius: 5px;
+}
+
+.navbar-toggler-icon {
+    background-color: #000;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+.shadow-sm {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* เงา */
+}
+.carousel-inner img {
+    object-fit: cover;  /* ทำให้ภาพครอบคลุมพื้นที่ทั้งหมด */
+    width: 100%;         /* ให้ภาพมีความกว้าง 100% */
+    height: 400px;       /* กำหนดความสูงให้ภาพทั้งหมดมีความสูงเท่ากัน */
+}

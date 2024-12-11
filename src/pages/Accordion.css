@@ -1,0 +1,71 @@
+/* Accordion container styling */
+.accordion {
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Accordion header */
+  .accordion-header {
+    font-family: "Arial", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Accordion button */
+  .accordion-button {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: none;
+  }
+  
+  .accordion-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.03);
+  }
+  
+  /* Accordion button when collapsed */
+  .accordion-button.collapsed {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  /* Accordion body */
+  .accordion-body {
+    font-family: "Verdana", sans-serif;
+    font-size: 1rem;
+    color: #555;
+    padding: 15px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    line-height: 1.5;
+  }
+  
+  /* Custom transition for accordion collapse */
+  .accordion-collapse {
+    transition: max-height 0.5s ease-in-out;
+  }
+  
+  /* Adjust for responsive design */
+  @media (max-width: 768px) {
+    .accordion {
+      margin: 10px;
+      max-width: 100%;
+    }
+  
+    .accordion-header {
+      font-size: 1rem;
+    }
+  
+    .accordion-body {
+      font-size: 0.9rem;
+    }
+  }
+  
